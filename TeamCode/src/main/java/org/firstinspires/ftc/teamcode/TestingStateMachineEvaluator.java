@@ -64,10 +64,10 @@ public class TestingStateMachineEvaluator extends OpMode {
                 // Set circle power ratio.
                 robotState.setCircleRotationDenominator(0.1f);
 
-                this.state = TestingState.POWER_MOTORS;
+                this.state = TestingState.POWERING_MOTORS;
 
                 break;
-            case POWER_MOTORS:
+            case POWERING_MOTORS:
                 // TODO: We are ignoring the conditional here just because we want to get the robot
                 // TODO: moving. In future, this should detect if we have already traveled a full
                 // TODO: circle, or more (hopefully not though).
@@ -81,34 +81,20 @@ public class TestingStateMachineEvaluator extends OpMode {
                 break;
             case MAZE_ENTRY:
                 break;
-            case ROTATE_SERVO_NORTH:
+            case SETTING_SERVO_DIRECTION:
                 break;
-            case ROTATE_SERVO_EAST:
+            case CLASSIC_COBB_SALAD_DRIVING:
                 break;
-            case ROTATE_SERVO_WEST:
+            case CLASSIC_COBB_SALAD_TURNING:
                 break;
-            case CLASSIC_MOVE_UNTIL_WALL:
-                break;
-            case CLASSIC_CHECK_RIGHT_VALIDITY:
-                break;
-            case CLASSIC_TURN_RIGHT:
-                break;
-            case CLASSIC_CHECK_LEFT_VALIDITY:
-                break;
-            case CLASSIC_TURN_LEFT:
-                break;
-            case CLASSIC_CHECK_BACKUP_NECESSARY:
-                break;
-            case CLASSIC_MOVE_BACKUP:
-                break;
-            case CLASSIC_ADJUST_FOR_BACKUP:
-                break;
-            case S_REGULATE_ANGLE:
+            case S_REGULATING_ANGLE:
                 break;
             case GLOBAL_END:
                 break;
             default:
                 telemetry.addData("Something bad", "Unknown state.");
+
+                break;
         }
 
         // Break out of the state loop if we are in the end state.
