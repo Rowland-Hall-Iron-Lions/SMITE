@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/smite.iml" filepath="$PROJECT_DIR$/.idea/modules/smite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FtcRobotController/smite.FtcRobotController.iml" filepath="$PROJECT_DIR$/.idea/modules/FtcRobotController/smite.FtcRobotController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeamCode/smite.TeamCode.iml" filepath="$PROJECT_DIR$/.idea/modules/TeamCode/smite.TeamCode.iml" />
+    </modules>
+  </component>
+</project>
