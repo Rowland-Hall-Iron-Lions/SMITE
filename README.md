@@ -1,3 +1,13 @@
+# Contributing
+
+Please find your assignments in the issues tab. You can adjust them as you see fit.
+
+Find the state enum in `TestingState.java`. For your assignment, please put an `evaluate` and `cleanup`
+method. You should append the name of your state directly after the method names, as to make them
+unique.
+
+**Have fun, and don't screw up.**
+
 ## NOTICE
 
 This repository contains the public FTC SDK for the Freight Frenzy (2021-2022) competition season.
