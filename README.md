@@ -6,6 +6,8 @@ Find the state enum in `TestingState.java`. For your assignment, please put an `
 method. You should append the name of your state directly after the method names, as to make them
 unique.
 
+When you are done with your assignment, please close your issue.
+
 **Have fun, and don't screw up.**
 
 ## NOTICE
